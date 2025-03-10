@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CalculateCompoundInterest {
-    public static void compoundInterest(String[] args){
+    public  void compoundInterest(){
         Scanner scanner = new Scanner(System.in);
 
         double principal;

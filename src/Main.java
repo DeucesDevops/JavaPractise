@@ -5,8 +5,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        CalculateCompoundInterest calculateCompoundInterest = new CalculateCompoundInterest();
+        CalculateCompoundInterest compoundInterest = new CalculateCompoundInterest();
 
-        calculateCompoundInterest.compoundInterest(args);
+        compoundInterest.compoundInterest();
     }
 }
