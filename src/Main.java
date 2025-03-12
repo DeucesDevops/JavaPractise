@@ -5,8 +5,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        CalculateCompoundInterest compoundInterest = new CalculateCompoundInterest();
+        WeightConverterProgramme convertWeight = new WeightConverterProgramme();
 
-        compoundInterest.compoundInterest();
+        convertWeight.weightConverter();
     }
 }
