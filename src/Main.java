@@ -4,9 +4,9 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
 
-    public static void main(String[] args) {
-        WeightConverterProgramme convertWeight = new WeightConverterProgramme();
+    public static void main(String[] args){
+        TemperatureConvertionProgramme convertTemp = new TemperatureConvertionProgramme();
+        convertTemp.temperatureConverter();
 
-        convertWeight.weightConverter();
     }
 }
