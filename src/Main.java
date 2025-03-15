@@ -5,8 +5,9 @@
 public class Main {
 
     public static void main(String[] args){
-        TemperatureConvertionProgramme convertTemp = new TemperatureConvertionProgramme();
-        convertTemp.temperatureConverter();
+        CalculatorProgramme cal = new CalculatorProgramme();
+
+        cal.calculator();
 
     }
 }

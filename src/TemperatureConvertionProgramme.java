@@ -21,7 +21,7 @@ public class TemperatureConvertionProgramme {
         System.out.println("Enter the temperature: ");
         temp = scanner.nextDouble();
 
-        //using tenerary operator
+        //using teary operator
         newTemp = (unit.equals("C")) ? (temp * 9/5) + 32 : (temp - 32) * 5/9;
         System.out.printf("the new temperature is: %.2f%s", newTemp, unit);
 
