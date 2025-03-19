@@ -5,9 +5,9 @@
 public class Main {
 
     public static void main(String[] args){
-        CalculatorProgramme cal = new CalculatorProgramme();
+        NumberGuessingGame guessNumber = new NumberGuessingGame();
 
-        cal.calculator();
+        guessNumber.numberGuessingGame();
 
     }
 }
