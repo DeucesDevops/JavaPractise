@@ -3,9 +3,9 @@
 public class Main {
 
     public static void main(String[] args){
-        BankingProgramme bankApp = new BankingProgramme();
+        DiceRollingGame diceRollingGame = new DiceRollingGame();
 
-        bankApp.bankingProgramme();
+        diceRollingGame.diceRollingGame();
 
 
     }
