@@ -40,7 +40,7 @@ public class QuizGame {
 
             for(String option : options[i]){
                 System.out.println(option);
-            };
+            }
 
             System.out.println("Enter your answer: ");
             guess = scanner.nextInt();
@@ -57,7 +57,7 @@ public class QuizGame {
                 System.out.println("**********");
             }
 
-        };
+        }
 
         System.out.println("Your total score is: " + score);
 
@@ -71,5 +71,5 @@ public class QuizGame {
         scanner.close();
     }
 
-};
+}
 
