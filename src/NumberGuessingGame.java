@@ -8,7 +8,6 @@ public class NumberGuessingGame {
         Scanner scanner = new Scanner(System.in);
 
         int guess;
-        int number = 10;
         int attempts = 0;
         int min = 1;
         int max = 100;

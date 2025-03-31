@@ -3,9 +3,9 @@
 public class Main {
 
     public static void main(String[] args){
-        DiceRollingGame diceRollingGame = new DiceRollingGame();
+        QuizGame quizGame = new QuizGame();
 
-        diceRollingGame.diceRollingGame();
+        quizGame.quizGame();
 
 
     }
