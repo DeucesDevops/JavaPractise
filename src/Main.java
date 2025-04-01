@@ -3,9 +3,9 @@
 public class Main {
 
     public static void main(String[] args){
-        RockPaperScissors rockPaperScissors = new RockPaperScissors();
+        SlotMachine slotMachine = new SlotMachine();
 
-        rockPaperScissors.rockPaperScissors();
+        slotMachine.slotMachine();
 
 
     }
